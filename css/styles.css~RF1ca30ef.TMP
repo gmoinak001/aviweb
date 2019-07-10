@@ -75,16 +75,6 @@ src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
     font-size: 107px
 }
 
-.caption p {
-    background-color: none;
-    margin-top: 0%;
-    color: #fff;
-    padding: 0px;
-    font-size: 20px;
-    letter-spacing: 8px;
-    text-align: center;
-}
-
 .caption_p span.border_p {
     margin-top: 0px;
     background-color: #000000;
@@ -134,7 +124,7 @@ h3 {
         top: 7%;
     }
 
-    .caption_p span.border_p {
+    .caption_p span.border {
         font-size: 25px;
     }
 
@@ -159,8 +149,8 @@ h3 {
         top: 10%;
     }
 
-    .caption_p span.border_p {
-        font-size: 25px;
+    .caption_p span.border {
+        font-size: 35px;
     }
 
     .caption_p p {
@@ -181,11 +171,11 @@ h3 {
     }
 
     .caption_p {
-        top: 5%;
+        top: 10%;
     }
 
-    .caption_p span.border_p {
-        font-size: 22px;
+    .caption_p span.border {
+        font-size: 30px;
     }
 
     .caption_p p {
