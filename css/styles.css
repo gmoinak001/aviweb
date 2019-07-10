@@ -75,6 +75,18 @@ src: local('Segoe UI Regular'), url('../fonts/Segoe UI.woff') format('woff');
     font-size: 107px
 }
 
+.caption_ps {
+    position: absolute;
+    left: 0;
+    top: 12%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-family: 'Segoe UI Regular';
+    font-weight: normal;
+    font-size: 107px
+}
+
 .caption p {
     background-color: none;
     margin-top: 0%;
@@ -108,6 +120,19 @@ src: local('Segoe UI Regular'), url('../fonts/Segoe UI.woff') format('woff');
     text-align: center;
 }
 
+.caption_ps span.border_ps {
+    margin-top: 0px;
+    background-color: #000000;
+    border-radius: 10px;
+    opacity: 0.7;
+    margin-top: 0px;
+    color: #fff;
+    padding: 17px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
 
 .content {
     position:absolute;
@@ -115,8 +140,27 @@ src: local('Segoe UI Regular'), url('../fonts/Segoe UI.woff') format('woff');
     width: 100%;
     height: 65%;
     background-color: #ffffff;
-    opacity: 0.6;
+    opacity: 0.8;
 }
+
+.content_s {
+    position: absolute;
+    top: 47%;
+    width: 100%;
+    height: 53%;
+    background-color: #ffffff;
+    opacity: 1;
+}
+
+.content_fluid {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    font-size: 25px;
+}
+
 
 @media only screen and (max-width: 600px) {
     .caption {
@@ -141,6 +185,23 @@ src: local('Segoe UI Regular'), url('../fonts/Segoe UI.woff') format('woff');
 
     .caption_p p {
         font-size: 16px;
+    }
+
+    .content_fluid {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .caption_ps {
+        top: 10%;
+    }
+
+    .caption_ps span.border_ps {
+        font-size: 25px;
     }
 }
 
@@ -167,6 +228,23 @@ src: local('Segoe UI Regular'), url('../fonts/Segoe UI.woff') format('woff');
     .caption_p p {
         font-size: 13px;
     }
+
+    .content_fluid {
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        height: 60%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .caption_ps {
+        top: 10%;
+    }
+
+    .caption_ps span.border_ps {
+        font-size: 25px;
+    }
 }
 
 @media only screen and (max-width: 325px) {
@@ -191,5 +269,22 @@ src: local('Segoe UI Regular'), url('../fonts/Segoe UI.woff') format('woff');
 
     .caption_p p {
         font-size: 15px;
+    }
+
+    .content_fluid {
+        position: absolute;
+        top: 57%;
+        width: 100%;
+        height: 43%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .caption_ps {
+        top: 10%;
+    }
+
+    .caption_ps span.border_ps {
+        font-size: 25px;
     }
 }
