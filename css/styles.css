@@ -1,0 +1,108 @@
+    
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+@font-face {
+font-family: 'Segoe UI Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../assets/body-home.svg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+  /*opacity: 0.8;*/
+}
+
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-family: 'Segoe UI Regular';
+  font-weight:normal;
+  font-size:107px
+}
+
+.caption span.border {
+  background-color: none;
+  margin-top: 0px;
+  color: #fff;
+  padding: 17px;
+  font-size: 50px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.caption p {
+    background-color: none;
+    margin-top: 0%;
+    color: #fff;
+    padding: 0px;
+    font-size: 20px;
+    letter-spacing: 8px;
+    text-align: center;
+}
+
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  font-family: segoe-UI;
+}
+
+@media only screen and (max-width: 600px) {
+    .caption {
+        top: 20%;
+    }
+
+        .caption span.border {
+            font-size: 25px;
+        }
+        .caption p {
+            font-size: 16px;
+        }
+
+@media only screen and (max-width: 350px) {
+    .caption {
+        top: 10%;
+    }
+
+    .caption span.border {
+        font-size: 35px;
+    }
+        .caption p {
+            font-size: 13px;
+        }
+}
+
+@media only screen and (max-width: 325px) {
+    .caption {
+        top: 10%;
+    }
+
+        .caption span.border {
+            font-size: 30px;
+        }
+        .caption p {
+            font-size: 15px;
+        }
+}
