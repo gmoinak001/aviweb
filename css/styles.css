@@ -8,7 +8,7 @@ body, html {
 font-family: 'Segoe UI Regular';
 font-style: normal;
 font-weight: normal;
-src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
+src: local('Segoe UI Regular'), url('../fonts/Segoe UI.woff') format('woff');
 }
 
 .bg {
@@ -66,7 +66,7 @@ src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
 .caption_p {
     position: absolute;
     left: 0;
-    top: 10%;
+    top: 6%;
     width: 100%;
     text-align: center;
     color: #000;
@@ -109,12 +109,13 @@ src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
 }
 
 
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: #111;
-  font-family: segoe-UI;
+.content {
+    position:absolute;
+    top: 35%;
+    width: 100%;
+    height: 65%;
+    background-color: #ffffff;
+    opacity: 0.6;
 }
 
 @media only screen and (max-width: 600px) {
