@@ -161,31 +161,36 @@ src: local('Segoe UI Regular'), url('../fonts/Segoe UI.woff') format('woff');
     font-size: 25px;
 }
 
+@media only screen and (max-width: 768px) {
+    .contain {
+        margin: 18%;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .caption {
         top: 20%;
     }
 
-    .caption span.border {
-        font-size: 25px;
-    }
+        .caption span.border {
+            font-size: 25px;
+        }
 
-    .caption p {
-        font-size: 16px;
-    }
+        .caption p {
+            font-size: 16px;
+        }
 
     .caption_p {
         top: 7%;
     }
 
-    .caption_p span.border_p {
-        font-size: 25px;
-    }
+        .caption_p span.border_p {
+            font-size: 25px;
+        }
 
-    .caption_p p {
-        font-size: 16px;
-    }
+        .caption_p p {
+            font-size: 16px;
+        }
 
     .content_fluid {
         position: absolute;
@@ -200,9 +205,9 @@ src: local('Segoe UI Regular'), url('../fonts/Segoe UI.woff') format('woff');
         top: 10%;
     }
 
-    .caption_ps span.border_ps {
-        font-size: 25px;
-    }
+        .caption_ps span.border_ps {
+            font-size: 25px;
+        }
 }
 
 @media only screen and (max-width: 350px) {
