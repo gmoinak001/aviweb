@@ -7,7 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
-    <title>Code Central | Projects</title>
+    <title>Code Central | About</title>
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" style="opacity: 0.5; border-color: black;">
@@ -23,22 +23,21 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="../index.html">Home</a></li>
-                    <li><a href="./about.html">About Us</a></li>
+                    <li class="active"><a href="./pages/about.html">About Us</a></li>
                     <li><a href="./services.html">Services</a></li>
-                    <li class="active"><a href="./projects.html">Projects</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <li><a href="./services.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <div class="bg-main"></div>
     <div class="caption_ps">
-        <span class="border_ps">PROJECTS</span>
+        <span class="border_ps">ABOUT US</span>
 
     </div>
     <div class="content_s"></div>
     <div class="content_fluid">
-        
     </div>
 </body>
 </html>

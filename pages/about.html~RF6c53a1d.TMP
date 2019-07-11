@@ -38,11 +38,8 @@
     </div>
     <div class="content_s"></div>
     <div class="content_fluid">
-        <div style="margin-top: 10%; text-align: center;">
-            <div class="col-sm-6">
-                <div style="background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(117,255,152,1) 100%); margin: 20px; padding: 10px; border-radius: 5px; height: auto; width: 90%;">Mission<hr />"Mission statement goes here"</div>
-                <div style="background: linear-gradient(45deg, rgba(158,56,22,1) 0%, rgba(255,194,125,1) 100%); color: #f6f6f6; margin: 20px; padding: 10px; border-radius: 5px; height: auto; width: 90%;">Vision<hr />"Vision statement goes here"</div>
-            </div>
+        <div style="margin-top: 7%; text-align: center;">
+            <div class="col-sm-6">Mission Statement</div>
             <div class="col-sm-6">The Team
                 <br /><br />
                 <div style="background: linear-gradient(45deg, rgba(155,255,153,1) 0%, rgba(0,128,128,1) 100%); height: 90px; width: 90px; border-radius: 50%; float: left; margin-left: 5px;"><p style="margin-top: 9%; color: #000000; font-size: 25px;">John Doe</p></div>
@@ -50,8 +47,8 @@
                 <div style="background: linear-gradient(45deg, rgba(110,255,226,1) 0%, rgba(250,160,25,1) 100%); height: 90px; width: 90px; border-radius: 50%; float: left; margin-left: 5px;"><p style="margin-top: 13%; color: #000000; font-size: 22px;">Arline Saraiva</p></div>
                 <div style="background: linear-gradient(176deg, rgba(255,74,228,1) 0%, rgba(20,255,118,1) 100%); height: 90px; width: 90px; border-radius: 50%; float: left; margin-left: 5px;"><p style="margin-top: 20%; color: #000000; font-size: 18px;">Augustin Earheart</p></div>
                 <div style="background: linear-gradient(255deg, rgba(255,153,253,1) 0%, rgba(255,142,20,1) 100%); height: 90px; width: 90px; border-radius: 50%; float: left; margin-left: 5px;"><p style="margin-top: 10%; color: #000000; font-size: 25px;">Deon John</p></div>
-                <div style="background: linear-gradient(47deg, rgba(228,255,20,1) 0%, rgba(52,238,247,1) 100%); height: 90px; width: 90px; border-radius: 50%; float: left; margin-left: 5px;"><p style="margin-top: 11%; color: #000000; font-size: 22px;">Oralee Webber</p></div>
-                <div style="background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(112,255,3,1) 100%); height: 90px; width: 90px; border-radius: 50%; float: left; margin-left: 5px;"><p style="margin-top: 11%; color: #000000; font-size: 24px;">Wai Spohn</p></div>
+                <div style="background-color: black; height: 90px; width: 90px; border-radius: 50%; float: left; margin-left: 5px;"><p style="margin-top: 6%; color: #f6f6f6; font-size: 22px;">John Doe</p></div>
+                <div style="background-color: black; height: 90px; width: 90px; border-radius: 50%; float: left; margin-left: 5px;"><p style="margin-top: 6%; color: #f6f6f6; font-size: 22px;">John Doe</p></div>
             </div>
         </div>
     </div>
