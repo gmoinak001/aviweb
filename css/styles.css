@@ -145,18 +145,18 @@ src: local('Segoe UI Regular'), url('../fonts/Segoe UI.woff') format('woff');
 
 .content_s {
     position: absolute;
-    top: 35%;
+    top: 40%;
     width: 100%;
-    height: 65%;
+    height: 60%;
     background-color: #ffffff;
     opacity: 1;
 }
 
 .content_fluid {
     position: absolute;
-    top: 40%;
+    top: 44%;
     width: 100%;
-    height: 60%;
+    height: 56%;
     text-align: center;
     font-size: 25px;
 }
