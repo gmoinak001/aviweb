@@ -278,6 +278,7 @@ src: local('Segoe UI Regular'), url('../fonts/Segoe UI.woff') format('woff');
         height: 43%;
         text-align: center;
         font-size: 25px;
+        padding: 10px;
     }
 
     .caption_ps {
